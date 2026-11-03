@@ -1,0 +1,12 @@
+// Manually merge into existing configuration; replace absolute executable paths.
+// Uses only local stdio. DO NOT replace existing MCP servers or policies.
+{
+  "mcp": {
+    "servers": {
+      "offline_efficiency": {
+        "type": "local",
+        "command": ["/ABSOLUTE/PATH/TO/PYTHON", "/ABSOLUTE/PATH/TO/BUNDLE/scripts/agent.py", "mcp", "--root", "/ABSOLUTE/PATH/TO/REPOSITORY"]
+      }
+    }
+  }
+}

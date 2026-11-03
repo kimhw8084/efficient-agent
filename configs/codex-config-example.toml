@@ -1,0 +1,4 @@
+# Manually merge into existing ~/.codex/config.toml; replace paths.
+[mcp_servers.offline_efficiency]
+command = "/ABSOLUTE/PATH/TO/PYTHON"
+args = ["/ABSOLUTE/PATH/TO/BUNDLE/scripts/agent.py", "mcp", "--root", "/ABSOLUTE/PATH/TO/REPOSITORY"]
